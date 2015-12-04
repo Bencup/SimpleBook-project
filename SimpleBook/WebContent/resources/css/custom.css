@@ -1,0 +1,101 @@
+/* footer{ width: 100%;
+		position: fixed;
+		bottom: 0;
+		margin-bottom: 0;} */
+#dropdown-menu h2 {
+	padding: 14px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#dropdown-menu .sample {
+	width: 200px;
+}
+
+#dropdown-menu .form-group {
+	margin: 30px 0;
+}
+
+.btn.ok {
+	/* padding: 15px;
+  font-size: 11px; */
+	margin: 2px 1px 2px 1px;
+}
+
+.u-center {
+	text-align: center;
+}
+
+td {
+	vertical-align: middle !important;
+}
+
+.parent {
+	
+}
+
+.navbar-brand img {
+	left: 4px;
+	vertical-align: middle;
+	max-height: 100%;
+}
+
+.table-tapdown {
+	margin: 70px 10px 0 0px;
+}
+
+.table-tapdown2 {
+	margin: 70px 100px 0px 100px;
+}
+
+/* .scrollToTop{
+	width:100px; 
+	height:100px;
+	padding:10px 0px 10px 0px ; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:500px;
+	right:40px;
+	display:none;
+	background: url('../img/up-arrow-icon.png') no-repeat 0px 20px;
+		}
+		
+		}
+.scrollToTop:hover{
+	text-decoration:none;
+} */
+.scrollToTop {
+	width: 60px;
+	height: 70px;
+	padding: 10px;
+	text-align: center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 5px;
+	display: none;
+	background: url('../img/up-arrow-icon.png') no-repeat 0px 20px;
+	background-size: 50px 50px;
+}
+
+.scrollToTop:hover {
+	text-decoration: none;
+}
+
+/* ---- align button logout ---- */
+/* .btnLogout{
+	
+	margin: 10px 5px 10px 5px;
+
+	top:5px;
+	right:15px;
+}
+ */

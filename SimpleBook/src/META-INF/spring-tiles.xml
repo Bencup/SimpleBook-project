@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<!-- Default Main Template -->
+
+	<definition name=".mainTemplate" template="/WEB-INF/jsp/layout/template.jsp">
+		<put-attribute name="title" value="Main" type="string" />
+		<put-attribute name="header" value="/WEB-INF/jsp/layout/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/layout/footer.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/layout/blank.jsp" />
+	</definition>
+
+
+	<definition name="login" extends=".mainTemplate">
+		<put-attribute name="title" value="welcom to library of nextzy Login"
+			type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+	<definition name="editbook" extends=".mainTemplate">
+		<put-attribute name="title" value="Edit Book" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editbook.jsp" />
+	</definition>
+
+	<definition name="editUser" extends=".mainTemplate">
+		<put-attribute name="title" value="Edit User" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editUser.jsp" />
+	</definition>
+
+	<definition name="returnB" extends=".mainTemplate">
+		<put-attribute name="title" value="confirm return" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/returnB.jsp" />
+	</definition>
+
+	<definition name="showUser" extends=".mainTemplate">
+		<put-attribute name="title" value="showUser" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showUser.jsp" />
+	</definition>
+
+
+	<definition name="showbook" extends=".mainTemplate">
+		<put-attribute name="title" value="show for detail Book"
+			type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showbook.jsp" />
+	</definition>
+
+	<definition name="showBorrow" extends=".mainTemplate">
+		<put-attribute name="title" value="Borrow" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showBorrow.jsp" />
+	</definition>
+
+
+	<definition name="book" extends=".mainTemplate">
+		<put-attribute name="title" value="list of Books" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/book.jsp" />
+	</definition>
+	
+	<definition name="bookadmin" extends=".mainTemplate">
+		<put-attribute name="title" value="list of Books" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/admin/bookadmin.jsp" />
+	</definition>
+
+	<definition name="user" extends=".mainTemplate">
+		<put-attribute name="title" value="list of user" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/user.jsp" />
+	</definition>
+
+	<definition name="borrow" extends=".mainTemplate">
+		<put-attribute name="title" value="list of borrow" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/borrow.jsp" />
+	</definition>
+
+
+	<definition name="createBook" extends=".mainTemplate">
+		<put-attribute name="title" value="add book to library"
+			type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createBook.jsp" />
+	</definition>
+
+	<definition name="createBorrow" extends=".mainTemplate">
+		<put-attribute name="title" value="doing Borrow" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createBorrow.jsp" />
+	</definition>
+
+	<definition name="createBreturn" extends=".mainTemplate">
+		<put-attribute name="title" value="createBreturn" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createBreturn.jsp" />
+	</definition>
+
+	<definition name="createUser" extends=".mainTemplate">
+		<put-attribute name="title" value="createUser" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createUser.jsp" />
+	</definition>
+
+	<definition name="DetailUserLog" extends=".mainTemplate">
+		<put-attribute name="title" value="DetailUserLog" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/DetailUserLog.jsp" />
+	</definition>
+
+	<definition name="borrowedBook" extends=".mainTemplate">
+		<put-attribute name="title" value="borrowedBook" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/borrowedBook.jsp" />
+	</definition>
+
+	<definition name="ableBook" extends=".mainTemplate">
+		<put-attribute name="title" value="ableBook" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/ableBook.jsp" />
+	</definition>
+
+	<definition name="borrowOfUser" extends=".mainTemplate">
+		<put-attribute name="title" value="borrow of User" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/borrowOfUser.jsp" />
+	</definition>
+
+	<definition name="borrowOfUserReturn" extends=".mainTemplate">
+		<put-attribute name="title" value="Return of User" type="string" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/borrowOfUserReturn.jsp" />
+	</definition>
+
+	<definition name="technologyBook" extends=".mainTemplate">
+		<put-attribute name="title" value="technologyBook" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/technologyBook.jsp" />
+	</definition>
+
+	<definition name="margetingBook" extends=".mainTemplate">
+		<put-attribute name="title" value="margetingBook" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/margetingBook.jsp" />
+	</definition>
+
+	<definition name="programmingBook" extends=".mainTemplate">
+		<put-attribute name="title" value="programmingBook"
+			type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/programmingBook.jsp" />
+	</definition>
+
+	<definition name="languageBook" extends=".mainTemplate">
+		<put-attribute name="title" value="languageBook" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/languageBook.jsp" />
+	</definition>
+
+
+</tiles-definitions>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<!-- Default Main Template -->
+
+	<definition name=".mainTemplate" template="/WEB-INF/jsp/layout/template.jsp">
+		<put-attribute name="title" value="Main" type="string" />
+		<put-attribute name="header" value="/WEB-INF/jsp/layout/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/layout/footer.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/layout/blank.jsp" />
+	</definition>
+
+
+	<definition name="login" extends=".mainTemplate">
+		<put-attribute name="title" value="Simple Member Login"
+			type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+	<definition name="member" extends=".mainTemplate">
+		<put-attribute name="title" value="Member" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/member.jsp" />
+	</definition>
+
+	<definition name="register" extends=".mainTemplate">
+		<put-attribute name="title" value="Register Page" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/register.jsp" />
+	</definition>
+
+	<definition name="editbook" extends=".mainTemplate">
+		<put-attribute name="title" value="Edit Book" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editbook.jsp" />
+	</definition>
+
+	<definition name="editUser" extends=".mainTemplate">
+		<put-attribute name="title" value="Edit User" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editUser.jsp" />
+	</definition>
+
+	<definition name="returnB" extends=".mainTemplate">
+		<put-attribute name="title" value="Edit User" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/returnB.jsp" />
+	</definition>
+
+	<definition name="show" extends=".mainTemplate">
+		<put-attribute name="title" value="Member" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/show.jsp" />
+	</definition>
+
+
+	<definition name="showUser" extends=".mainTemplate">
+		<put-attribute name="title" value="User" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showUser.jsp" />
+	</definition>
+
+	<definition name="showbook" extends=".mainTemplate">
+		<put-attribute name="title" value="Book" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showbook.jsp" />
+	</definition>
+
+	<definition name="showBorrow" extends=".mainTemplate">
+		<put-attribute name="title" value="Borrow" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/showBorrow.jsp" />
+	</definition>
+
+
+	<definition name="book" extends=".mainTemplate">
+		<put-attribute name="title" value="Book" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/book.jsp" />
+	</definition>
+
+	<definition name="user" extends=".mainTemplate">
+		<put-attribute name="title" value="user" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/user.jsp" />
+	</definition>
+
+	<definition name="registeruser" extends=".mainTemplate">
+		<put-attribute name="title" value="registeruser" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/registeruser.jsp" />
+	</definition>
+
+	<definition name="borrow" extends=".mainTemplate">
+		<put-attribute name="title" value="borrow" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/borrow.jsp" />
+	</definition>
+
+
+	<definition name="createBook" extends=".mainTemplate">
+		<put-attribute name="title" value="createBook" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createBook.jsp" />
+	</definition>
+
+	<definition name="createBorrow" extends=".mainTemplate">
+		<put-attribute name="title" value="createBorrow" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createBorrow.jsp" />
+	</definition>
+
+	<definition name="createBreturn" extends=".mainTemplate">
+		<put-attribute name="title" value="createBreturn" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createBreturn.jsp" />
+	</definition>
+
+	<definition name="createUser" extends=".mainTemplate">
+		<put-attribute name="title" value="createUser" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/createUser.jsp" />
+	</definition>
+
+
+
+</tiles-definitions>
